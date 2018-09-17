@@ -76,3 +76,12 @@ body{
     font-size: 0.8em;
     border-top: 1px solid black;
 }
+
+
+#header {
+	color: black;
+	background-color: blue;
+	font-family: Georgia, "Times New Roman", serif;
+	font-size: 0.8em;
+
+}
