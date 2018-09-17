@@ -13,15 +13,21 @@ p {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: "Muli", Helvetica, Arial, sans-serif;
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
 }
 
 h1 {
 	font-size: 2.5rem;
+	color:#89003E;
 }
 
 h2 {
-	font-size: 1.5rem
+	font-size: .75rem;
+	color: darkred;
+	font-family: Helvetica, Arial, sans-serif;
+	text-decoration: none;
+
+
 }
 
 body{
@@ -39,16 +45,17 @@ body{
 	list-style-type: none;
 }
 
-#nav li {
+#nav{
     margin: 0;
     padding: 0;
 	border-bottom: 1px solid #ccc;
 	text-decoration: none;
 }
 
+
 #nav a:link, a:visited {
 	display:block;
-    color: #ffffff;
+    color: none;
     background-color: #98bf21;
     font-weight: bold;
     text-align:center;
@@ -63,7 +70,7 @@ body{
 
 .caption {
     color: black;
-    font-family: "Merriweather", Georgia, "Times New Roman", serif;
+    font-family: "Muli", "Times New Roman", serif;
     font-style: italic;
     font-size: 0.8em;
     margin-top: 0;
@@ -72,7 +79,7 @@ body{
 
 #footer {
     color: black;
-    font-family: Georgia, "Times New Roman", serif;
+    font-family: "Muli", "Times New Roman", serif;
     font-size: 0.8em;
     border-top: 1px solid black;
 }
@@ -80,8 +87,31 @@ body{
 
 #header {
 	color: black;
-	background-color: blue;
-	font-family: Georgia, "Muli", serif;
+	background-color:#2F00FF;
+	font-family: "Muli", "Times New Roman", serif;
 	font-size: 0.8em;
 
+}
+
+ul {
+list-style-type: none;
+padding: 1;
+
+}
+
+#list {
+	color: black;
+	background-color: gold;
+	font-family: "Roboto", "Times New Roman", serif;
+	font-size: 0.8em;
+}
+
+a:link {
+	color:#B211AC;
+	text-decoration: none;
+	font-family: "Times New Roman", serif, Georgia;
+}
+a:visited {
+	color:#B211AC;
+	font-family: "Times New Roman", serif, Georgia;
 }
