@@ -1,3 +1,13 @@
+
+div{
+	font-style: "Muli", Georgia, "Times New Roman", serif;
+	
+}
+.container {
+	display: flex;
+	flex-direction: column;
+}
+
 html {
 	font-size: 100%
 }
