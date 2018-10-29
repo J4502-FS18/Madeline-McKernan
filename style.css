@@ -139,3 +139,30 @@ a:visited {
 	color:#B211AC;
 	font-family: "Times New Roman", serif, Georgia;
 }
+
+.grid-container {
+  display: inline-grid;
+	grid-column-gap: 10px;
+	grid-row-gap: 10px;
+}
+
+.pic1 {
+
+}
+
+.pic2 {
+
+}
+
+.pic3 {
+
+}
+
+.pic4 {
+image-orientation: 90deg;
+}
+
+.pic5 {
+	image-orientation: 45deg;
+
+}
