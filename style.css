@@ -141,17 +141,21 @@ a:visited {
 }
 
 .grid-container {
-  display: inline-grid;
+  display: grid;
 	grid-column-gap: 10px;
 	grid-row-gap: 10px;
+	grid-template: 250px 250px 250px;
+	justify-content: center;
 }
 
 .pic1 {
-
+	grid-column-start: 3;
+	grid-row-end: 1;
 }
 
 .pic2 {
-
+	grid-column-start: 3;
+	grid-row-end: 3;
 }
 
 .pic3 {
@@ -159,10 +163,9 @@ a:visited {
 }
 
 .pic4 {
-image-orientation: 90deg;
+
 }
 
 .pic5 {
-	image-orientation: 45deg;
 
 }
