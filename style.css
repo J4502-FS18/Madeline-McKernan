@@ -171,6 +171,11 @@ h3{
 	padding-top: 10px;
 }
 
-@media only screen and (max-width: 600px) {
-  
+@media screen and (max-width: 600px) {
+
+}
+
+@media screen and (min-width: 800px) {
+	.pic4 {
+		margin-right: auto;
 }
