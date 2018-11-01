@@ -4,11 +4,10 @@
 }
 
 .container {
-	padding: 10px;
 	display: flex;
 	justify-content:center;
-	flex-direction: column;
-	height: 300px
+	flex-direction: row;
+	height: 300px;
 }
 
 .item{
@@ -46,10 +45,11 @@ h1 {
 }
 
 h2 {
-	font-size: .75rem;
+	font-size: 1.75rem;
 	color: darkred;
 	font-family: Helvetica, Arial, sans-serif;
 	text-decoration: none;
+	padding-top: 15px;
 }
 
 h3 {
